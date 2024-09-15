@@ -12,17 +12,45 @@ namespace ShareARide
     public class Driver:User
     {
         public string VehicleType { get; set; }
-        public bool IsAvailable { get; set; }
+        public bool IsAvailable = true;
+        public NotificationService notificationService { get; set; }
+        
 
-       /* public Driver(int id, string name,string location,double rating,string vehicletype*//*, bool available*//*) :base(id,name,location,rating)
-        {
-            this.VehicleType = VehicleType;
-            this.IsAvailable = true;
-        }*/
+        /* public Driver(int id, string name,string location,double rating,string vehicletype*//*, bool available*//*) :base(id,name,location,rating)
+         {
+             this.VehicleType = VehicleType;
+             this.IsAvailable = true;
+         }*/
         public Driver() : base() { }
 
-        public void AcceptRide() { }
-        public void RateRider(Rider rider) { }
+        public void AcceptRide(Trip trip)
+        {
+            if(!IsAvailable)
+            {
+                Console.WriteLine(this.Name + " is not available at this moment.");
+                return;
+            }
+            else
+            {
+                trip.assignDriver(this);
+                //then
+                IsAvailable = false;//cause they accepted the request
+                
+                notificationService.SendNotification("You have accepted the request.");
+            }
+        }
+        public void RateRider(Rider rider,double Rating)
+        {
+            if (Rating < 1.0 || Rating > 5.0)
+            { Console.WriteLine("Please rate between 1.0 and 5.0."); }
+            else
+            {
+                rider.Rating = (rider.Rating + Rating) / 2;//Assume the average of the uodated rating
+
+            }
+            notificationService.SendNotification("You rated driver " + rider + " with a rating of " + Rating);
+            rider.notificationService.SendNotification("You received " + Rating + " from " + this.Name);
+        }
         
         public void StartTrip()
         {
