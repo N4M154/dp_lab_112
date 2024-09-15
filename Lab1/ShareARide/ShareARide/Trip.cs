@@ -16,6 +16,8 @@ namespace ShareARide
         public RideType RideType { get; set; }
         public double Distance { get; set; }
         public double Fare { get; set; }
+
+        public Driver AssignedDriver { get; set; }
         public NotificationService notificationService;
         public PaymentMethod paymentMethod;
 
@@ -26,13 +28,18 @@ namespace ShareARide
 
         public void completeTrip()
         {
+            Status = "Trip completed";
             paymentMethod.ProcessPayment(Fare);
             notificationService.SendNotification("Trip is complete.");
         }
 
         public void assignDriver(Driver driver)
         {
-            notificationService.SendNotification("You've been assigned " + driver);
+            
+
+            AssignedDriver = driver;
+            Status = "Driver assigned";
+            notificationService.SendNotification("You've been assigned a driver");
 
         }
 
@@ -43,4 +50,5 @@ namespace ShareARide
 
 
     }
+    /* -_- N4M154 -_- */
 }

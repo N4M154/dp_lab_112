@@ -27,5 +27,9 @@ namespace ShareARide
         {
             return Location = newLocation;
         }
+
+
+        
     }
+    /* -_- N4M154 -_- */
 }

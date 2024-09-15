@@ -55,7 +55,7 @@ namespace ShareARide
             rider.RequestRide("Chader Desh", "mongol Groho", new RideType { Type = "Luxury" });
 
         
-            rider.RateDriver(driver, 5.0);
+            rider.RateDriver(driver, 5.0, "good driver.");
 
             
             rider.MakePayment(50.0, creditCard);
@@ -83,4 +83,5 @@ namespace ShareARide
 
     }
     }
+    /* -_- N4M154 -_- */
 }

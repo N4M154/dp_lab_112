@@ -49,6 +49,7 @@
     <Compile Include="PaymentMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rating.cs" />
     <Compile Include="Rider.cs" />
     <Compile Include="RideType.cs" />
     <Compile Include="Trip.cs" />

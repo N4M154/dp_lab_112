@@ -14,6 +14,7 @@ namespace ShareARide
         public string VehicleType { get; set; }
         public bool IsAvailable = true;
         public NotificationService notificationService { get; set; }
+        public List<Rating> ratings =new List<Rating>();
         
 
         /* public Driver(int id, string name,string location,double rating,string vehicletype*//*, bool available*//*) :base(id,name,location,rating)
@@ -39,13 +40,13 @@ namespace ShareARide
                 notificationService.SendNotification("You have accepted the request.");
             }
         }
-        public void RateRider(Rider rider,double Rating)
+        public void RateRider(Rider rider,double Rating,string feedback)
         {
             if (Rating < 1.0 || Rating > 5.0)
             { Console.WriteLine("Please rate between 1.0 and 5.0."); }
             else
             {
-                rider.Rating = (rider.Rating + Rating) / 2;//Assume the average of the uodated rating
+                ratings.Add(new Rating { user = rider,Value = Rating,Feedback = feedback });
 
             }
             notificationService.SendNotification("You rated driver " + rider + " with a rating of " + Rating);
@@ -65,4 +66,5 @@ namespace ShareARide
 
 
     }
+    /* -_- N4M154 -_- */
 }

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\sharearide\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|solutionrelative:sharearide\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|e:\\pdf\\classes\\swe 4502 - design patterns lab\\lab1\\sharearide\\sharearide\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|solutionrelative:sharearide\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|solutionrelative:ShareARide\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\sharearide\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|solutionrelative:sharearide\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\sharearide\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +23,12 @@
       "RelativeMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|solutionrelative:ShareARide\\RideType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|e:\\pdf\\classes\\swe 4502 - design patterns lab\\lab1\\sharearide\\sharearide\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\sharearide\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|solutionrelative:sharearide\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|solutionrelative:ShareARide\\Driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\sharearide\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|solutionrelative:sharearide\\driver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Rider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +37,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\sharearide\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|solutionrelative:sharearide\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\sharearide\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CFA098B-36A0-4C2C-AF2C-656E1CC7411C}|ShareARide\\ShareARide.csproj|solutionrelative:sharearide\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +50,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Rating.cs",
+              "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Rating.cs",
+              "RelativeDocumentMoniker": "ShareARide\\Rating.cs",
+              "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Rating.cs",
+              "RelativeToolTip": "ShareARide\\Rating.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:37:30.225Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 8,
@@ -56,7 +73,7 @@
               "RelativeDocumentMoniker": "ShareARide\\User.cs",
               "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\User.cs",
               "RelativeToolTip": "ShareARide\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAqwCEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T07:08:33.996Z",
               "EditorCaption": ""
@@ -69,7 +86,7 @@
               "RelativeDocumentMoniker": "ShareARide\\Rider.cs",
               "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Rider.cs",
               "RelativeToolTip": "ShareARide\\Rider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAowDIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T05:49:54.132Z",
               "EditorCaption": ""
@@ -82,7 +99,7 @@
               "RelativeDocumentMoniker": "ShareARide\\Driver.cs",
               "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Driver.cs",
               "RelativeToolTip": "ShareARide\\Driver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAswEQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T05:57:34.353Z",
               "EditorCaption": ""
@@ -95,7 +112,7 @@
               "RelativeDocumentMoniker": "ShareARide\\Admin.cs",
               "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Admin.cs",
               "RelativeToolTip": "ShareARide\\Admin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAFAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAUwDsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T07:25:16.709Z",
               "EditorCaption": ""
@@ -108,7 +125,7 @@
               "RelativeDocumentMoniker": "ShareARide\\RideType.cs",
               "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\RideType.cs",
               "RelativeToolTip": "ShareARide\\RideType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAFAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwDEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T06:18:48.007Z",
               "EditorCaption": ""
@@ -121,7 +138,7 @@
               "RelativeDocumentMoniker": "ShareARide\\PaymentMethod.cs",
               "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\PaymentMethod.cs",
               "RelativeToolTip": "ShareARide\\PaymentMethod.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAACcAAAAFAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAqwCgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T12:03:28.982Z",
               "EditorCaption": ""
@@ -134,33 +151,33 @@
               "RelativeDocumentMoniker": "ShareARide\\NotificationService.cs",
               "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\NotificationService.cs",
               "RelativeToolTip": "ShareARide\\NotificationService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAABwAAAAsAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-15T07:39:59.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Trip.cs",
               "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Trip.cs",
               "RelativeDocumentMoniker": "ShareARide\\Trip.cs",
               "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Trip.cs",
               "RelativeToolTip": "ShareARide\\Trip.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAMAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAA4wDQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T06:06:56.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Program.cs",
               "RelativeDocumentMoniker": "ShareARide\\Program.cs",
               "ToolTip": "E:\\PDF\\ClAsSeS\\SWE 4502 - DESIGN PATTERNS LAB\\Lab1\\ShareARide\\ShareARide\\Program.cs",
               "RelativeToolTip": "ShareARide\\Program.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAQwE8AAAAbAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAQwFcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-13T05:47:40.695Z",
               "EditorCaption": ""
