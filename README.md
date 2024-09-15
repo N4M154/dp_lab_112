@@ -3,7 +3,7 @@
  
 - Each lab task is coded in Java or C# and can be a console app, winform, or web app.
 
-- They adhere to the concepts of Obejct-Oriented Programming. 
+- They adhere to the concepts of Object-Oriented Programming. 
 
 ## Contents
 
