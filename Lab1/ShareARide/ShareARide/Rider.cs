@@ -7,23 +7,22 @@ using System.Threading.Tasks;
 
 namespace ShareARide
 {
-    public class Rider
+     
+    public class Rider:User
     {
-        public int RiderID;
-        public string RiderName;
-        public string RiderLocation;
-        public double RatingofDriver;
-        public string PreferredPayMethod;
+        public string PrefferedPaymentMethod {  get; set; }
 
-        public Rider() { }
+        /* public Rider(int id,string name,string location,double rating,string preferredpayment):base(id,name,location,rating)
+         {
+             this.PrefferedPaymentMethod = PrefferedPaymentMethod;
+         }*/
+        public Rider() : base() { }
+        public void RequestRide(string Pickup,string dropoff)
+        {
 
-        public void ReqRide() { }
-
-        public void BookTrip(string RiderLocation) { }
-
-        public void RateDriver() { }
-
-        public void MakePayment(string PrefferedPayMethod) { }
+        }
+        public void RateDriver(Driver driver) { }
+        public void MakePayment(double amount) { }
 
     }
 }
