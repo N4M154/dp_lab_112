@@ -13,7 +13,7 @@ namespace ShareARide
 
         public RideType() { }
 
-        public double FareCoefficient(string type)
+/*        public double FareCoefficient(string type)
         {
             if (type == "Carpool")
             {
@@ -33,17 +33,18 @@ namespace ShareARide
             }
 
         }
-
-        /*public double FareCoefficient()
+*/
+        
+        public double FareCoefficient()
         {
             switch(Type)
             {
-                case "Carpool": return 2.0;
-                case "Luxury": return 3.0;
-                case "Bike":return 1.5;
-                
+                case "Carpool": return 3.0;
+                case "Luxury": return 5.0;
+                case "Bike": return 2.0;
+                default: return 1.0;
             }
-        }*/
+        }
 
     }
 }

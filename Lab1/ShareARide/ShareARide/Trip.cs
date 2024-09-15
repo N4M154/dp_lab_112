@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,58 +9,36 @@ namespace ShareARide
 {
     public class Trip
     {
-        public int TripID;
-        public Rider Rider;
-        public Driver Driver;
-        public string PickupLocation;
-        public string DropOffLocation;
-        public double Fare;
-        public string Status;
-        public double Distance;
-        public RideType RideType;
+        public int TripId { get; set; }
+        public string PickupLocation { get; set; }
+        public string DropoffLocation {  get; set; }
+        public string Status { get; set; }
+        public RideType RideType { get; set; }
+        public double Distance { get; set; }
+        public double Fare { get; set; }
+        public NotificationService notificationService;
+        public PaymentMethod paymentMethod;
 
-        public Trip(Rider rider,Driver driver)//pickup and dropoff can change so it shouldn't be in this constructor.
+
+
+
+        public Trip() { }
+
+        public void completeTrip()
         {
-            this.Rider = rider;
-            /*this.PickupLocation = pickup;
-            this.DropOffLocation = dropoff;*/
-            this.Driver = driver;
+            paymentMethod.ProcessPayment(Fare);
+            notificationService.SendNotification("Trip is complete.");
+        }
+
+        public void assignDriver(Driver driver)
+        {
+            notificationService.SendNotification("You've been assigned " + driver);
 
         }
 
-
-        public void AssignDriver(Driver dr) 
+        public double calculateFare(double Distance)
         {
-            if(dr.IsAvailable)
-            {
-                Status = "Driver available";
-                Console.WriteLine($"{dr} has been assigned.");
-            }
-            else
-            {
-                Status = "Driver is not available";
-                Console.WriteLine($"{dr} is not available.");
-            }
-        }
-
-        public double CalculateFareCarpool(double distance,RideType rdtp)
-        {
-
-            
-            return Fare = distance * rdtp.FareCoefficient("Carpool");
-        }
-
-        public double CalculateFareLuxury(double distance, RideType rdtp)
-        {
-
-
-            return Fare = distance * rdtp.FareCoefficient("Luxury");
-        }
-        public double CalculateFareBiker(double distance, RideType rdtp)
-        {
-
-
-            return Fare = distance * rdtp.FareCoefficient("Biker");
+            return Distance * RideType.FareCoefficient();
         }
 
 
