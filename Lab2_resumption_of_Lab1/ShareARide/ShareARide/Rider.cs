@@ -22,11 +22,12 @@ namespace ShareARide
          {
              this.PrefferedPaymentMethod = PrefferedPaymentMethod;
          }*/
-        public Rider() : base() 
+        public Rider(NotificationService notificationService) : base() 
         
         {
             paymentMethod = new CreditCard();
             PrefferedPaymentMethod = "CreditCard";
+            this.notificationService = notificationService;
         }
         public void RequestRide(string Pickup,string dropoff,RideType ridetype)
         {

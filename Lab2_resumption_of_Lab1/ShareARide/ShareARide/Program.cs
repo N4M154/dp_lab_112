@@ -78,18 +78,17 @@ namespace ShareARide
 
              admin.HandleDispute(rider, driver, "Issue with ride quality.");*/
 
-            Rider rider = new Rider();
+            Rider rider = new Rider(new SMS());
             rider.Name = "Namisa";
 
-            Trip trip = new Trip();
+            Trip trip = new Trip(new InApp());
             trip.Distance = 56.0;
             trip.rider = rider;
             trip.RideType = new RideType { Type = "Luxury" };
 
-            // The rider requests a ride and the driver is assigned
             trip.assignDriver(new Driver());
 
-            // After the trip, the rider can choose to change their payment method
+            
             trip.completeTrip();
 
             Console.ReadKey();

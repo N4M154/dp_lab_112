@@ -26,7 +26,7 @@ namespace ShareARide
 
 
 
-        public Trip() { }
+        public Trip(NotificationService notificationService) { this.notificationService = notificationService; }
         public void ProcessPayment()
         {
             Fare = calculateFare(Distance); 
