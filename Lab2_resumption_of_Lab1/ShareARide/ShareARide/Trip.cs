@@ -32,6 +32,7 @@ namespace ShareARide
             Fare = calculateFare(Distance); 
 
             Console.WriteLine("The fare for this trip is: " + Fare);
+            Console.WriteLine("Your current payment method is: " + rider.PrefferedPaymentMethod);
             Console.WriteLine("Would you like to change your payment method? (yes/no)");
             string userInput = Console.ReadLine()?.ToLower();
 
@@ -43,13 +44,13 @@ namespace ShareARide
                 switch (choice)
                 {
                     case "1":
-                        rider.ChangePaymentMethod(new CreditCard());
+                        rider.ChangePaymentMethod(new CreditCard(), "CreditCard");
                         break;
                     case "2":
-                        rider.ChangePaymentMethod(new PayPal());
+                        rider.ChangePaymentMethod(new PayPal(), "PayPal");
                         break;
                     case "3":
-                        rider.ChangePaymentMethod(new DigitalWallet());
+                        rider.ChangePaymentMethod(new DigitalWallet(), "DigitalWallet");
                         break;
                     default:
                         Console.WriteLine("Invalid choice, using current payment method.");

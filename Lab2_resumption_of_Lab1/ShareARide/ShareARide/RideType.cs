@@ -11,7 +11,10 @@ namespace ShareARide
         public string Type;
        //public double Distance;
 
-        public RideType() { }
+        public RideType() 
+        {
+            
+        }
 
 /*        public double FareCoefficient(string type)
         {

@@ -22,7 +22,12 @@ namespace ShareARide
          {
              this.PrefferedPaymentMethod = PrefferedPaymentMethod;
          }*/
-        public Rider() : base() { }
+        public Rider() : base() 
+        
+        {
+            paymentMethod = new CreditCard();
+            PrefferedPaymentMethod = "CreditCard";
+        }
         public void RequestRide(string Pickup,string dropoff,RideType ridetype)
         {
             Console.WriteLine(this.Name + " is requesting for a ride.");
@@ -47,10 +52,11 @@ namespace ShareARide
             paymentMethod.ProcessPayment(amount);
             notificationService.SendNotification("Payment is done.");
         }
-        public void ChangePaymentMethod(PaymentMethod newPaymentMethod)
+        public void ChangePaymentMethod(PaymentMethod newPaymentMethod, string newMethodName)
         {
             paymentMethod = newPaymentMethod;
-            Console.WriteLine("Payment method changed successfully.");
+            PrefferedPaymentMethod = newMethodName;
+            Console.WriteLine("Payment method changed successfully to " + newMethodName);
         }
     }
 

@@ -78,9 +78,12 @@ namespace ShareARide
 
              admin.HandleDispute(rider, driver, "Issue with ride quality.");*/
 
+            Rider rider = new Rider();
+            rider.Name = "Namisa";
+
             Trip trip = new Trip();
-            trip.Distance = 10.0;
-            trip.rider = new Rider { Name = "John" };
+            trip.Distance = 56.0;
+            trip.rider = rider;
             trip.RideType = new RideType { Type = "Luxury" };
 
             // The rider requests a ride and the driver is assigned
