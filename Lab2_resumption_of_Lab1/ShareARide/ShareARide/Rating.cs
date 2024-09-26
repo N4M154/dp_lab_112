@@ -12,7 +12,12 @@ namespace ShareARide
         public double Value { get; set; }
         public string Feedback { get; set; }
 
-        public Rating() { }
+        public Rating(User u,double value,string feedback)
+        {
+            this.user = u;
+            this.Value = value;
+            this.Feedback = feedback;
+        }
 
 
     }

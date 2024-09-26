@@ -84,9 +84,9 @@ namespace ShareARide
             Trip trip = new Trip(new InApp());
             trip.Distance = 56.0;
             trip.rider = rider;
-            trip.RideType = new RideType { Type = "Luxury" };
+            trip.RideType = new RideType { Type = "carpool" };
 
-            trip.assignDriver(new Driver());
+            trip.assignDriver(new Driver(new InApp()));
 
             
             trip.completeTrip();

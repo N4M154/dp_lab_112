@@ -41,7 +41,7 @@ namespace ShareARide
             { Console.WriteLine("Please rate between 1.0 and 5.0."); }
             else
             {
-                ratings.Add(new Rating { user = driver, Value = Rating, Feedback = feedback });
+                ratings.Add(new Rating(driver,Rating,feedback));
 
             }
             notificationService.SendNotification("You rated driver " + driver + " with a rating of " + Rating);

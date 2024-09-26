@@ -22,7 +22,10 @@ namespace ShareARide
              this.VehicleType = VehicleType;
              this.IsAvailable = true;
          }*/
-        public Driver() : base() { }
+        public Driver(NotificationService notificationService) : base() 
+        {
+            this.notificationService = notificationService;
+        }
 
         public void AcceptRide(Trip trip)
         {
@@ -46,7 +49,7 @@ namespace ShareARide
             { Console.WriteLine("Please rate between 1.0 and 5.0."); }
             else
             {
-                ratings.Add(new Rating { user = rider,Value = Rating,Feedback = feedback });
+                ratings.Add(new Rating(rider,Rating,feedback));
 
             }
             notificationService.SendNotification("You rated driver " + rider + " with a rating of " + Rating);
