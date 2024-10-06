@@ -10,7 +10,7 @@
 - [Lab01(13th september 2024) - Ride-Sharing Application Design Problem](https://github.com/N4M154/dp_lab_112/tree/main/Lab1)
 - [Lab02 resumption of Lab01(20th september 2024) - Ride-Sharing Application Design Problem](https://github.com/N4M154/dp_lab_112/tree/main/Lab2_resumption_of_Lab1)
 - [Lab03(27th september 2024) - Encryption Decryption Problem](https://github.com/N4M154/dp_lab_112/tree/main/Lab3)
-- [Lab0(4th october 2024) - Decorator Pattern problem](https://github.com/N4M154/dp_lab_112/tree/main/Lab4)
+- [Lab04(4th october 2024) - Decorator Pattern problem](https://github.com/N4M154/dp_lab_112/tree/main/Lab4)
 
 
 
