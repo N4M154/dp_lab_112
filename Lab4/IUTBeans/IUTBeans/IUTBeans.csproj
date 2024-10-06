@@ -43,16 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cappuccino.cs" />
-    <Compile Include="Espresso.cs" />
-    <Compile Include="ICoffee.cs" />
-    <Compile Include="ICondiment.cs" />
-    <Compile Include="Latte.cs" />
-    <Compile Include="Milk.cs" />
+    <Compile Include="Coffee\Cappuccino.cs" />
+    <Compile Include="Coffee\Espresso.cs" />
+    <Compile Include="Interfaces\ICoffee.cs" />
+    <Compile Include="Interfaces\ICondiment.cs" />
+    <Compile Include="Coffee\Latte.cs" />
+    <Compile Include="Condiment\Milk.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WhippedCream.cs" />
-    <Compile Include="WhiteSugar.cs" />
+    <Compile Include="Condiment\WhippedCream.cs" />
+    <Compile Include="Condiment\WhiteSugar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
