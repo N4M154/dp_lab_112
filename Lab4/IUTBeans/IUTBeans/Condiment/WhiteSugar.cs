@@ -9,7 +9,7 @@ namespace IUTBeans
     internal class WhiteSugar:ICondiment
 
     {
-        public double _price = 15.00;
+        
 
         public string Name()
         {
@@ -18,7 +18,7 @@ namespace IUTBeans
 
         public double Price()
         {
-            return _price;
+            return 15.00;
         }
     }
 }

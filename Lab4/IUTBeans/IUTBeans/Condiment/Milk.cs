@@ -8,7 +8,7 @@ namespace IUTBeans
 {
     internal class Milk:ICondiment
     {
-        public double _price = 20.00;
+        
 
         public string Name()
         {
@@ -17,7 +17,7 @@ namespace IUTBeans
 
         public double Price()
         {
-            return _price;
+            return 20.00;
         }
     }
 }

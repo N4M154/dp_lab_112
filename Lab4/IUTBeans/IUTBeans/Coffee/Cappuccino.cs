@@ -9,7 +9,7 @@ namespace IUTBeans
     internal class Cappuccino:ICoffee
     {
         private double _basePrice = 80.00;
-        private List<ICondiment> _condiments;
+        public List<ICondiment> _condiments;
         public Cappuccino(List<ICondiment> condiments)
         {
             _condiments = condiments;

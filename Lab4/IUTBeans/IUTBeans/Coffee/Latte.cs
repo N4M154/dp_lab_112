@@ -9,7 +9,7 @@ namespace IUTBeans
     internal class Latte:ICoffee
     {
         private double _basePrice = 120.00;
-        private List<ICondiment> _condiments;
+        public List<ICondiment> _condiments;
         public Latte(List<ICondiment> condiments)
         {
             _condiments = condiments;
