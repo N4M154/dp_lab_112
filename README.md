@@ -13,6 +13,7 @@
 - [Lab04(4th october 2024) - Decorator Pattern problem](https://github.com/N4M154/dp_lab_112/tree/main/Lab4)
 - [Lab05(11th october 2024) - Composite Pattern problem](https://github.com/N4M154/dp_lab_112/tree/main/Lab5)
 - [Lab06(18th october 2024) - Adapter Pattern problem](https://github.com/N4M154/dp_lab_112/tree/main/Lab6)
+- [Lab07(8th November 2024) - Facade Pattern problem](https://github.com/N4M154/dp_lab_112/tree/main/Lab7)
 
 
 
