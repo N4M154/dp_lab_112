@@ -23,7 +23,7 @@ namespace Lab10
         public void Do()
         {
             newAccount = new BankAccInfo(AccNum, Balance);
-            Console.WriteLine($"Account created for {AccNum} with initial amount of {Balance}");
+            Console.WriteLine($"\nAccount created for {AccNum} with initial amount of {Balance}");
         }
     }
 }
